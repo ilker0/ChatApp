@@ -1,0 +1,112 @@
+body{
+	height: 100vh;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ChatScreen {
+	height: 100vh;
+}
+
+.searchInput{
+	border-style: none;
+	width: 100%;
+	border-radius: 50px;
+}
+
+
+/*USERLİST CSS START*/
+.UserList{
+ 	background-color: #393F49;
+ 	height: 100vh;
+ 	display: flex;
+
+}
+
+.UserList .UserList-setting{
+	height: 100vh;
+	background-color: #333943;
+	width: 150px;
+}
+
+.UserList .UserList-menu{
+	height: 100px;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	color:#fff;
+	padding-top: 22px;
+}
+
+.UserList-name {
+	margin-top: 20px;
+	width: 100%;
+}
+.UserList-name ul {
+	overflow: auto;
+	overflow-x: hidden;
+	width: 100%;
+	margin-left: 0;
+	list-style: none;
+
+}
+
+.UserList-name ul li{
+
+	margin-left: -40px;
+	margin-bottom: 10px;
+	padding-top: 12px;
+	height: 50px;
+	
+
+
+}
+.UserList-name ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.profile-img img {
+	margin-top: 50px;
+	margin-left: 20px;
+	border-radius: 50px;
+	height: 75px;
+	width: 80px;
+}
+
+.Search-bar{
+	padding-top: 8px;
+	background-color: #fff;
+	border-radius: 50px;
+	height: 40px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.Plus-bar{
+	background-color: #393F49;
+
+}
+
+/*USERLİST CSS STOP */
+
+
+.ChatList{	
+	width: 100%;
+}
+
+.ChatList .ChatList-message {
+	display: flex;
+	margin-top: 70%;
+	height: 60px;
+	width: 100%;
+	background-color: #fff;	
+	margin-bottom: 20px;
+	position: fixed;
+	bottom: 0;
+
+}
+
+
+.ChatList-box{
+	height: 100%;
+}
